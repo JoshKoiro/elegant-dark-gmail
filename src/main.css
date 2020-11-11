@@ -1,3 +1,11 @@
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/email-body.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/email-view.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/header.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/inbox-view.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/menus.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search-contact-windows.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search.css");
+
 /**/
 :root {
     --dark-back:rgba(15,20,20,1);
@@ -73,11 +81,3 @@ body {
 .T-Jo {
      opacity:var(--icon-opacity);
 }
-
-@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/email-body.css");
-@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/email-view.css");
-@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/header.css");
-@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/inbox-view.css");
-@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/menus.css");
-@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search-contact-windows.css");
-@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search.css");
