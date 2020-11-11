@@ -5,6 +5,7 @@
 @import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/menus.css");
 @import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search-contact-windows.css");
 @import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/global.css");
 
 /**/
 :root {
@@ -25,59 +26,4 @@
     --email-header-font:'Roboto';
     --email-header-size:24px;
     --email-header-font-weight:400;
-}
-
-/*Global Settings*/
-
-
-* {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  /*Hide Scrollbars*/
-.aeJ::-webkit-scrollbar {
-    display: none;
-  }
-  
-.w-asV.aiw, .nH.bkK.nn {
-    background:var(--dark-background);
-}
-
-body {
-    color:var(--text-color);
-}
-
-/*Hide Google Apps Button*/
-.gb_D {
-    display:none; /*TODO - show the user profile logo but hide the google apps*/
-}
-
-
-/*Hide left Sidebar*/
-.aeN {
-    display:none;
-}
-
-/*Hide gmail logo at top*/
-.gb_2c {
-    display:none;
-}
-
-/*icon colors*/
-.gb_zc svg, .gb_Fc.gb_Kc svg, .gb_zc .gb_2c .gb_he, .gb_zc .gb_2c .gb_yc, .gb_zc .gb_2c .gb_4c, .gb_Fc.gb_Kc .gb_he {
-    color:rgb(255,255,255);
-    opacity:var(--icon-opacity);
-}
-
-.bi4>.T-KT:not(.T-KT-Jp):not(.byM)::before {
-    opacity:var(--icon-opacity);/*Is this needed? TODO*/
-}
-
-.T-I-ax7 .T-I-J3 {
-     opacity:var(--icon-opacity);
-}
-
-.T-Jo {
-     opacity:var(--icon-opacity);
 }
