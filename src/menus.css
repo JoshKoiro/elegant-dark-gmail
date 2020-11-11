@@ -1,8 +1,7 @@
 /*Menus*/
 
 .J-M {
-    background-color:red;
-    color:white;
+    background-color:var(--dark-back);
 }
 
 .Ta {
