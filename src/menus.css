@@ -1,0 +1,18 @@
+/*Menus*/
+
+.J-M {
+    background-color:red;
+    color:white;
+}
+
+.Ta {
+    --background-color:blue
+}
+
+.gssb_m {
+    background-color:var(--menu-background-color);
+}
+
+.gssb_e {
+    background-color:var(--menu-background);
+}

@@ -1,0 +1,198 @@
+/*Email Page background color*/
+.iY .Bu {
+    background:rgba(0,0,0,0);
+    color:var(--text-color);
+}
+.a3s.aiL > div, .hi, center > table {
+   background-color:rgba(0,0,0,0)!important;
+}
+
+/*shadow behind email*/
+.hx {
+    --border-top:1px solid rgba(255,255,255,0.1);
+        box-shadow:0px 0px 10px rgba(0,0,0,0.5)
+}
+
+/*More email adjustments - will need further customization*/
+
+*[class*="emailBody"]{
+    background-color:rgba(0,0,0,0)!important;
+    
+}
+
+*[class*="background"]{
+    background-color:rgba(0,0,0,0)!important;
+}
+
+table[style*="background-color"],tbody[style*="background-color"],tr[style*="background-color"],td[style*="background-color"],div[style*="background-color"]:not(.hN):not(.hO):not(.at):not(.gssb_i){
+    background-color:rgba(0,0,0,0)!important;
+    
+    
+}
+
+table[style*="color"],tbody[style*="color"],tr[style*="color"],td[style*="color"],td>div[style*="color"],span[style*="color"],h1[style*="color"],h2[style*="color"],h3[style*="color"],h4[style*="color"],h5[style*="color"],h6[style*="color"],p[style*="color"]{
+    color:var(--email-content-text-color)!important;
+    
+}
+
+
+/*change text color*/
+.hx {
+    color:var(--email-content-text-color);
+}
+
+/*Email Icons*/
+.gW, .gZ, .g1, .gH {
+    filter:invert(100%);
+}
+
+.T-I-JN .T-I-J3 {
+    opacity:var(--icon-opacity);
+}
+
+img.gW {
+    filter:brightness(10%);
+    opacity:0.2;
+}
+
+.ams.bkH::before, .ams.bkG::before, .ams.bkI::before {
+    filter:invert(100%);
+    opacity:0.2
+}
+
+/*email page width*/
+.hx {
+    
+    padding-top:15px;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+/*Email heading text*/
+.ha>.hP {
+    color:var(--email-content-text-color);
+    opacity:1;
+    font-size:20px;
+    font-family:var(--email-header-font);
+    font-size:var(--email-header-font-size);
+    font-weight:var(--email-header-font-weight);
+    letter-spacing:3px;
+    text-transform:uppercase;
+    padding-right:20px;
+}
+.if>.byY, .iC .byY {
+    padding-left:0;
+    padding-top:30px;
+    padding-bottom:60px;
+}
+
+/*email heading flag and tags position*/
+.ha .pG {
+    margin-right:40px;
+}
+
+/*tag spacing in email*/
+.ahR {
+    margin-right:15px;
+}
+
+/*tag sizing in email*/
+.hN {
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 20px 0 0 20px;
+}
+.hO {
+    border-radius:0 20px 20px 0;
+}
+
+/*make tags darker colors - TODO*/
+.hN, .hO {
+    
+}
+/*mark tags dark in main searches - TODO*/
+.at {
+    
+}
+
+/*email meta data*/
+.hx .gD, .go {
+    color:var(--email-content-text-color);
+    font-family:var(--typography);
+    font-weight:400;
+    letter-spacing:var(--spacing-letters);
+}
+
+/*Action icon buttons in email view*/
+.G-atb {
+    padding-left:5vw;
+}
+.acZ {
+    padding-right:30px;
+}
+
+/*time in email body*/
+.ig .g3, .hI .g3, .iv .g3 {
+    color:var(--text-color);
+    text-transform:uppercase;
+    font-family:var(--typography);
+    letter-spacing:var(--spacing-letters);
+    font-size:12px;
+    filter:invert(100%);
+}
+
+/*email body colors*/
+
+table,tbody,tr,td,tr:not(.gssb_i) {
+    background-color:rgba(0,0,0,0)!important;
+    border-color:rgba(0,0,0,0)!important;
+    color:var(--email-content-text-color)!important;
+
+}
+
+/*email footer*/
+.amn, .amn>.ams {
+    background-color:var(--dark-back);
+    color:var(--text-color);
+    box-shadow:none;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:4px;
+    --webkit-font-smoothing:antialiased;
+    
+}
+
+.amn>.ams:hover{
+    color:var(--text-color);
+}
+
+/*Move reply commands to top of email area - Disabled for now - TODO*/
+.gA.gt.acV {
+    --position:absolute;
+    --left:-75px;
+    --top:-195px;
+}
+
+/*auto response options*/
+.brb {
+    float:right;
+    background-color:var(--dark-back);
+    padding-left:30vw;
+    box-shadow:none;
+    background-color:rgba(0,0,0,0)
+    
+}
+.nr {
+    background-color:rgba(0,0,0,0);
+}
+.bra {
+    border:none;
+    background:rgba(0,0,0,0);
+    color:var(--text-color);
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-size:12px;
+    box-shadow:none;
+    
+}

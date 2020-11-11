@@ -1,0 +1,487 @@
+
+.w-asV.aiw, .nH.bkK.nn {
+    background:var(--dark-back);
+}
+
+/*fonts*/
+.yW {
+    font-family:var(--typography);
+    font-size:14px;
+    letter-spacing:var(--spacing-letters);
+}
+
+body {
+    color:var(--text-color);
+}
+
+.zA>.a4W {
+    font-family:var(--typography);
+}
+
+body, td, input, textarea, select {
+    font-family:var(--typography);
+}
+
+
+
+/*Hide Sidebar*/
+.aeN {
+    display:none;
+}
+
+/*Re-size the main panel*/
+.aeJ {
+    padding-left:100px;
+    padding-right:100px;
+}
+    
+/*resize header area*/
+.PY.G-atb {
+    padding-left:100px;
+}
+
+/*resize other part of header area (mark all refresh btns)*/
+.G-atb {
+    padding-left:100px;
+    padding-bottom:60px;
+}
+
+/*Resize read/unread sections*/
+.Wg {
+    padding-bottom:30px;
+    text-transform:uppercase;
+}
+
+.qh {
+    letter-spacing:3px;
+}
+
+/*margin above "everything else" section */
+.ae4.aDM {
+    margin-bottom:50px;
+}
+
+/*unread email highlighting*/
+.zF, .bqe, .bq3 {
+    font-weight:400;
+    color:rgba(255,255,255,0.9);
+    
+}
+
+/*letter spacing -senders*/
+.yW {
+    letter-spacing:var(--spacing-letters);
+}
+
+/*letter spacing - content*/
+.zA>.a4W {
+    letter-spacing:var(--spacing-letters);
+    
+}
+
+/*sender spacing*/
+.zA>.yX {
+    flex-basis:var(--sender-col-width);
+    max-width:var(--sender-col-width);
+    flex-grow:0;
+}
+
+
+/*Hide Scrollbar*/
+.aeJ::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*Hide Google Apps Button*/
+.gb_D {
+    display:none;
+}
+
+/*Main panel email element (Unread)*/
+.zE {
+  background-color:rgba(0,0,0,0);
+    color:var(--text-color);
+    padding-top:var(--email-spacing);
+}
+/*dates*/
+span.bq3, .xW.xY > span {
+    text-transform:uppercase;
+    
+}
+
+/*Main panel email element (Everything else)*/
+.yO {
+    background-color:rgba(0,0,0,0);
+    color:var(--text-color);
+    padding-top:var(--email-spacing);
+}
+
+/*email body preview*/
+.y2 {
+    color:var(--light-text-color);
+    --font-style:italic;
+    --white-space:normal;
+    --flex-basis:600px;
+    --flex-shrink:0;
+    --flex-grow:0;
+}
+
+/*Main panel email element*/
+.zA {
+    box-shadow:none;
+    border:none;
+}
+
+/*highlight email item*/
+.zA:hover {
+    box-shadow:none;
+    background-color:rgba(255,255,255,0.025);
+}
+
+
+/*Selected Email element*/
+.btb {
+   background-color:rgba(200,200,255,0.025); 
+}
+
+/*selected email element highlight on left*/
+.zA>.PE.PF::before {
+    border:2px solid #4d90f0;
+    border-radius:5px;
+    position:relative;
+    height:200%;
+    margin-bottom:5px;
+    opacity:0.8;
+    
+}
+
+/*checkbox*/
+.xY>.T-Jo {
+ filter:invert(75%);
+ opacity:0;
+}
+
+/*star flag*/
+td.apU>.T-KT.aXw::before {
+    filter:invert(75%);
+    opacity:0;
+    
+}
+
+.T-KT-JW {
+    background-color:rgba(0,0,0,0.01);
+}
+
+/*important flag*/
+.a9q {
+    filter:invert(75%);
+    opacity:0;
+}
+
+/*Hide gmail logo at top*/
+.gb_2c {
+    display:none;
+}
+
+/*searchbar color*/
+.gb_zc .gb_6e {
+    background:rgba(255,255,255,0.01);
+    color:var(--text-color);
+}
+
+/*searchbar text color*/
+input.gb_qf {
+    color:rgba(255,255,255,0.5);
+}
+
+/*remove box shadow on search box*/
+.gb_6e.gb_7e {
+    box-shadow:none;
+}
+
+/*searchbar alignment*/
+#aso_search_form_anchor {
+    margin-top:60px;
+    margin-left:50%;
+}
+
+/*top corner button alignment*/
+.FI {
+    margin-right:150px;
+}
+
+.gb_8d.gb_1e:not(.gb_Re) .gb_Se {
+    max-width:4000px;
+    flex:5 1;
+}
+
+/*searchbar text when typing*/
+.gb_6e.gb_7e .gb_qf {
+    color:rgba(255,255,255,1);
+}
+
+.gb_zc .gb_6e {
+    color:rgba(0,0,0,0);
+}
+
+.gb_6e.gb_7e {
+    background:rgba(0,0,0,0);
+}
+
+button {
+    color:rgba(255,255,255,0.2);
+}
+
+/*searchbar text when not typing*/
+input {
+    color:white;
+}
+
+::placeholder {
+    color:white;
+}
+
+input.gb_qf:focus {
+   color:white;
+}
+
+/*search menu text*/
+.gssb_m {
+    color:var(--text-color);
+
+}
+/*search menu dropdown area*/
+table.gstl_50.gssb_c {
+    background-color:var(--menu-background-color)!important;
+    border-radius:10px;
+    box-shadow:1px 1px 10px black;
+    letter-spacing:1px;
+    padding-top:7px;
+}
+
+/*remove horizontal bars*/
+.G-atb::before {
+    box-shadow:none;
+}
+
+.aiw {
+    box-shadow:none;
+}
+
+.Wg {
+    box-shadow:none;
+}
+
+/*Unread/everything else text*/
+.Wr>.Wn {
+    color:var(--text-color);
+}
+
+/*contact thumbnail area*/
+.bX {
+    margin-bottom:40px;
+    padding-top:25px;
+    padding-bottom:25px; 
+    padding-left:25px;
+}
+
+/*Menus*/
+
+.J-M {
+    --background-color:red
+    --color:white;
+}
+
+.Ta {
+    --background-color:blue
+}
+
+.gssb_m {
+    background-color:var(--menu-background-color);
+}
+
+.gssb_e {
+    background-color:var(--menu-background);
+}
+/*icon colors*/
+.gb_zc svg, .gb_Fc.gb_Kc svg, .gb_zc .gb_2c .gb_he, .gb_zc .gb_2c .gb_yc, .gb_zc .gb_2c .gb_4c, .gb_Fc.gb_Kc .gb_he {
+    color:rgb(255,255,255);
+    opacity:var(--icon-opacity);
+}
+
+.T-I-ax7 .T-I-J3 {
+     opacity:var(--icon-opacity);
+}
+
+.T-Jo {
+     opacity:var(--icon-opacity);
+}
+
+/*during search - determine placement of top buttons*/
+.G6 {
+   position:absolute;
+}
+
+.H0 {
+    --display:inline;
+}
+
+.Il {
+    white-space:normal;
+    margin-top:75px;
+}
+
+/*Style 'further filter' option buttons during search*/
+
+.H2.HD {
+    border:none;
+    background:rgba(0,0,0,0);
+    color:var(--text-color);
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-size:12px;
+}
+
+span.H4 {
+   filter:saturate(90%) brightness(80%) hue-rotate(5deg);
+    
+}
+
+.H2.HD:hover {
+    background-color:var(--more-add-background);
+}
+
+
+/*EXPERIMENTAL WORKING WITH THE EMAIL*/
+
+/*Email Page background color*/
+.iY .Bu {
+    background:rgba(0,0,0,0);
+    color:var(--text-color);
+}
+.a3s.aiL > div, .hi, center > table {
+   background-color:rgba(0,0,0,0)!important;
+}
+
+/*Email heading text*/
+.ha>.hP {
+    color:var(--email-content-text-color);
+    opacity:1;
+    font-size:20px;
+    --font-family:'Roboto';
+    font-weight:400;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    padding-right:20px;
+}
+
+.if>.byY, .iC .byY {
+    padding-left:0;
+    padding-top:30px;
+    padding-bottom:60px;
+}
+
+/*email heading flag and tags position*/
+.ha .pG {
+    margin-right:40px;
+}
+
+/*tag spacing in email*/
+.ahR {
+    margin-right:15px;
+}
+
+/*tag sizing in email*/
+.hN {
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 20px 0 0 20px;
+}
+
+.hO {
+    border-radius:0 20px 20px 0;
+}
+
+/*make tags dark colors*/
+.hN, .hO {
+    filter:invert(100%) brightness(150%);
+}
+
+/*mark tags dark in main searches*/
+.at {
+    --filter:invert(100%) brightness(150%);
+}
+
+/*email meta data*/
+.hx .gD, .go {
+    color:var(--email-content-text-color);
+    font-family:var(--typography);
+    font-weight:400;
+    letter-spacing:var(--spacing-letters);
+}
+
+.go {
+    color:var(--email-content-text-color);
+    margin-left:20px;
+    font-family:var(--typography);
+    letter-spacing:var(--spacing-letters);
+}
+
+.go a {
+     color:var(--email-content-text-color);
+    margin-left:-20px;
+}
+
+/*time in email body*/
+.ig .g3, .hI .g3, .iv .g3 {
+    color:var(--text-color);
+    text-transform:uppercase;
+    font-family:var(--typography);
+    letter-spacing:var(--spacing-letters);
+    font-size:12px;
+}
+
+/*email body colors*/
+
+table,tbody,tr,td {
+    background-color:rgba(0,0,0,0)!important;
+    border-color:rgba(0,0,0,0)!important;
+    color:var(--email-content-text-color)!important;
+
+}
+
+/*divider line in email*/
+.hx {
+    --border-top:1px solid rgba(255,255,255,0.1);
+        box-shadow:0px 0px 70px rgba(0,0,0,1)
+}
+
+u>div{
+    background-color:rgb(0,0,0)!important;
+}
+
+*[class*="emailBody"]{
+    background-color:rgba(0,0,0,0)!important;
+    
+}
+
+table[style*="background-color"],tbody[style*="background-color"],tr[style*="background-color"],td[style*="background-color"],div[style*="background-color"]{
+    background-color:rgba(0,0,0,0)!important;
+    
+    
+}
+
+table[style*="color"],tbody[style*="color"],tr[style*="color"],td[style*="color"],td>div[style*="color"]{
+    color:var(--email-content-text-color)!important;
+    
+}
+
+
+/*change text color*/
+.hx {
+    color:var(--email-content-text-color);
+}
+
+
