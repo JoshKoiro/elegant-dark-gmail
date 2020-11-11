@@ -74,9 +74,10 @@ body {
      opacity:var(--icon-opacity);
 }
 
-
-@import 'inbox-view.css';
-@import 'header.css';
-@import 'search-contact-window.css';
-@import 'search.css';
-
+@import url("https://raw.githubusercontent.com/JoshKoiro/elegant-dark-gmail/main/src/email-body.css");
+@import url("https://raw.githubusercontent.com/JoshKoiro/elegant-dark-gmail/main/src/email-view.css");
+@import url("https://raw.githubusercontent.com/JoshKoiro/elegant-dark-gmail/main/src/header.css");
+@import url("https://raw.githubusercontent.com/JoshKoiro/elegant-dark-gmail/main/src/inbox-view.css");
+@import url("https://raw.githubusercontent.com/JoshKoiro/elegant-dark-gmail/main/src/menus.css");
+@import url("https://raw.githubusercontent.com/JoshKoiro/elegant-dark-gmail/main/src/search-contact-windows.css");
+@import url("https://raw.githubusercontent.com/JoshKoiro/elegant-dark-gmail/main/src/search.css");
