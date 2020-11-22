@@ -1,0 +1,144 @@
+/*searchbar color*/
+.gb_zc .gb_6e {
+    background:rgba(255,255,255,0.01);
+    color:var(--text-color);/*don't think this is needed*/
+}
+
+/*searchbar highlight hover*/
+tr.gssb_i {
+    background-color:rgba(255,255,255,0.05)!important;
+}
+
+/*searchbar text color*/
+input.gb_qf {
+    color:rgba(255,255,255,0.5);/*TODO - is this doing anything?*/
+}
+
+.gb_6e, .gb_7e, .gbqf {
+    color:rgba(255,255,255,0.5);/*TODO - is this doing anything?*/
+}
+
+/*remove box shadow on search box when selected*/
+.gb_6e.gb_7e {
+    box-shadow:none;
+}
+
+/*searchbar alignment*/
+#aso_search_form_anchor {
+    margin-top:60px;
+    margin-left:50%;
+}
+
+.gb_8d.gb_1e:not(.gb_Re) .gb_Se {
+    margin-right:-100px;
+}
+
+.gb_6e {
+    max-width:4000px;
+}
+
+/*top corner settings and help button alignment*/
+.FI {
+    margin-right:5vw;
+}
+
+.gb_8d.gb_1e:not(.gb_Re) .gb_Se {
+    width:100%;
+    flex:5 1;
+}
+
+/*searchbar text when typing*/
+.gb_6e.gb_7e .gb_qf {
+    color:var(--text-color);
+}
+
+/*searchbar placeholder text when focused*/
+.gb_6e.gb_7e input::-webkit-input-placeholder,.gb_6e.gb_7e input::placeholder {
+    color:var(--text-color)!important;
+}
+
+/*searchbar text when not typing or focused - TODO*/
+
+
+/*search menu text*/
+.asor_b {
+    color:var(--email-text-color);
+}
+
+/*search menu dropdown area*/
+table.gstl_50.gssb_c {
+    background-color:var(--menu-background-color)!important;
+    border-radius:10px;
+    box-shadow:1px 1px 10px black;
+    letter-spacing:1px;
+    padding-top:7px;
+}
+
+/*search menu dropdown seperator*/
+.gssb_l {
+    background-color:rgba(255,255,255,0.05);
+}
+
+/*date in drop-down*/
+.asor_c {
+    text-transform:uppercase;
+    font-family:var(--typography);
+    letter-spacing:1px;
+    font-size:10px;
+}
+
+/*email icons in search drop down*/
+.gsoi_0 {
+    filter:invert(100%);
+ }
+ 
+ /*attachment icon in search*/
+ .asor_o {
+     filter:invert(100%);
+ }
+
+ /*remove horizontal bars in search results header*/
+.G-atb::before {
+    box-shadow:none;
+}
+.aiw {
+    box-shadow:none;
+}
+
+.Wg {
+    box-shadow:none;
+}
+
+@media screen and (max-width: 1360px) {
+    /*move edit item buttons out of way of searchbar*/
+    .G-atb {
+        padding-top:100px;
+        margin-left:40px;
+    }
+    #aso_search_form_anchor {
+        margin-left:max(30px,3vw);
+        
+    }
+        .adF {
+        padding-top:0px;
+    }
+    
+    .D.E.G-atb {
+        
+        padding-left:max(30px,5vw);
+    }
+    
+  }
+
+@media screen and (min-width: 1360px){
+    .adF {
+    padding-top:200px;
+}
+    
+    .ar5 {
+        padding-top:100px;
+    }
+}
+
+ 
+

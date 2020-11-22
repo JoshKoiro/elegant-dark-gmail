@@ -1,0 +1,174 @@
+/*Inbox View*/
+
+
+/* Email sender Text */
+.yW {
+    font-family:var(--typography);
+    font-size:14px;
+    letter-spacing:var(--spacing-letters);
+}
+
+/* message preview text */
+.zA>.a4W {
+    font-family:var(--typography);
+}
+
+/* set default fontface */
+body, td, input, textarea, select {
+    font-family:var(--typography);
+}
+
+/*Re-size the main panel*/
+.aeJ, .ae4 {
+    padding-left:5vw;
+    padding-left:max(30px,5vw);
+    padding-right:5vw;
+    padding-top:60px;
+}
+    
+/*resize header area*/
+.PY.G-atb {
+    padding-left:100px; /*TODO - Don't think this value is needed*/
+}
+
+/*resize other part of header area (mark all refresh btns)*/
+.G-atb {
+    padding-left:100px; /*TODO - Don't think this value is needed*/
+    padding-bottom:60px;
+}
+
+/*Read/Unread Section settings*/
+.Wg {
+    padding-bottom:30px;
+    text-transform:uppercase;
+}
+
+.qh {
+    letter-spacing:3px;
+}
+
+/*margin above "everything else" section */
+.ae4.aDM {
+    margin-bottom:50px;
+}
+
+/*unread email highlighting*/
+.zF, .bqe, .bq3 {
+    font-weight:400;
+    color:rgba(255,255,255,0.9);
+    
+}
+
+/*Email categories headings - Unread/everything else text*/
+.Wr>.Wn {
+    color:var(--text-color);
+}
+
+
+/*letter spacing -sender part of email item*/
+.yW {
+    letter-spacing:var(--spacing-letters);/*TODO - look if this is nessasary being overriden by letter spacing - content selector*/
+}
+
+/*letter spacing - content part of email item*/
+.zA>.a4W {
+    letter-spacing:var(--spacing-letters);
+    
+}
+
+/*sender column spacing*/
+.zA>.yX {
+    flex-basis:var(--sender-col-width);/*TODO - Don't think both of these are required*/
+    max-width:var(--sender-col-width);
+    flex-grow:0;
+}
+
+/*Main panel email element (Unread)*/
+.zE {
+    background-color:rgba(0,0,0,0);
+      color:var(--text-color);
+      padding-top:var(--email-spacing);
+  }
+  /*far right side dates*/
+  span.bq3, .xW.xY > span {
+      text-transform:uppercase;
+      
+  }
+  
+  /*Main panel email element (Everything else section)*/
+  .yO {
+      background-color:rgba(0,0,0,0);
+      color:var(--text-color);
+      padding-top:var(--email-spacing);
+  }
+  
+  /*email body preview*/
+  .y2 {
+      color:var(--light-text-color);
+      --font-style:italic;
+      --white-space:normal; /*TODO work on multi-line preview (try by unhiding this)*/
+      --flex-basis:600px;
+      --flex-shrink:0;
+      --flex-grow:0;
+  }
+
+  /*email element - removing border lines (made via shadows)*/
+.zA {
+    box-shadow:none;
+    border:none;
+}
+
+/*highlight email item*/
+.zA:hover {
+    box-shadow:none;
+    background-color:rgba(255,255,255,0.025);/*TODO This is getting over-ridden by somthing in the email details section (making all email dark)*/
+}
+
+/*Selected Email element*/
+.btb {
+   background-color:rgba(200,200,255,0.025); /*TODO This is getting over-ridden by somthing in the email details section (making all email dark)*/
+}
+
+/*selected email element highlight on left*/
+.zA>.PE.PF::before {
+    border:2px solid #4d90f0;
+    border-radius:5px;
+    position:relative;
+    height:200%;
+    margin-bottom:5px;
+    opacity:0.8;
+    
+}
+
+/*email selection checkbox*/
+.xY>.T-Jo {
+    filter:invert(75%);
+    opacity:0;
+   }
+   
+   /*make all selected check boxes visible when selected*/
+   tr.x7>td.xY>.T-Jo {
+       opacity:1;
+   }
+   
+   /*star flag*/
+   td.apU>.T-KT.aXw::before {
+       filter:invert(75%);
+       opacity:0;
+       
+   }
+   
+   .T-KT-JW {
+       background-color:rgba(0,0,0,0.01);/*TODO not sure what this is doing*/
+   }
+   
+   /*important flag*/
+   .a9q {
+       filter:invert(75%);
+       opacity:0;
+   }
+
+   /*icons on right when hover over email in list*/
+.zA.aqw>.xY.bq4, .zA.buL>.xY.bq4, .zA.cP>.xY.bq4 {
+    display:none;
+}

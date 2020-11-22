@@ -1,0 +1,31 @@
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/email-body.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/email-view.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/header.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/inbox-view.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/menus.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search-contact-windows.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/search.css");
+@import url("https://raw.githack.com/JoshKoiro/elegant-dark-gmail/main/src/global.css");
+
+/* Thank you to https://raw.githack.com/ for the free service of serving these files  */
+
+/*VARIABLES*/
+:root {
+    --dark-back:rgba(15,20,20,1);
+    --text-color:rgba(255,255,255,0.4);
+    --light-text-color:rgba(255,255,255,0.2);
+    --add-background:rgba(255,255,255,0.025);
+    --more-add-background:rgba(255,255,255,0.05);
+    --email-spacing:20px;
+    --email-content-text-color:rgba(255,255,255,0.7);
+    --typography:"Google Sans";
+    --spacing-letters:1px;
+    --sender-col-width:200px;
+    --icon-opacity:0.4;
+    --menu-background-color:rgba(15,20,20,1);
+    --subtile-blue-text:color:rgba(200,200,255,0.5);
+    --inverted-yellow-blue:rgb(53, 75, 138);
+    --email-header-font:'Roboto';
+    --email-header-size:24px;
+    --email-header-font-weight:400;
+}

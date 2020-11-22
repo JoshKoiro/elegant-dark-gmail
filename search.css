@@ -1,0 +1,50 @@
+/*during search - determine placement of top buttons*/
+.G6 {
+    position:absolute;
+ }
+ 
+ .Il {
+     white-space:normal;
+     margin-top:100px;
+ }
+ 
+ /*Style 'further filter' option buttons during search*/
+ 
+ .H2.HD {
+     border:none;
+     background:rgba(0,0,0,0);
+     color:var(--text-color);
+     font-weight:400;
+     text-transform:uppercase;
+     letter-spacing:4px;
+     font-size:12px;
+ }
+ span.H4 {
+    filter:saturate(90%) brightness(80%) hue-rotate(5deg);
+     
+ }
+ .H2.HD:hover {
+     background-color:var(--more-add-background);
+ }
+
+ /*searchbar menu highlight on hover*/
+tr.gssb_i {
+    background-color:rgba(255,255,255,0.05)!important;
+}
+
+ /*during re-sizing, align the 'further filter buttons - THIS IS NOT WORKING MAYBE BECAUSE OF IMPORT? - TODO*/
+@media screen and (max-width: 1030px) {
+    .Il {
+        display:inline;
+        padding-top:120px;
+        
+    }
+    .Ii {
+        margin-top:50px;
+    }
+    
+       .H2.HD {
+        margin-top:10px;
+    }
+    
+}
