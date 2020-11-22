@@ -108,5 +108,37 @@ table.gstl_50.gssb_c {
 .Wg {
     box-shadow:none;
 }
+
+@media screen and (max-width: 1360px) {
+    /*move edit item buttons out of way of searchbar*/
+    .G-atb {
+        padding-top:100px;
+        margin-left:40px;
+    }
+    #aso_search_form_anchor {
+        margin-left:max(30px,3vw);
+        
+    }
+        .adF {
+        padding-top:0px;
+    }
+    
+    .D.E.G-atb {
+        
+        padding-left:max(30px,5vw);
+    }
+    
+  }
+
+@media screen and (min-width: 1360px){
+    .adF {
+    padding-top:200px;
+}
+    
+    .ar5 {
+        padding-top:100px;
+    }
+}
+
  
 
